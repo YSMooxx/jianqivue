@@ -1,0 +1,7 @@
+build/*.js
+src/assets
+public
+dist
+index.html
+vite.config.js
+.eslintignore

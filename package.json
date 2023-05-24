@@ -1,0 +1,52 @@
+{
+  "name": "vite-vue-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "linetest": "vite --mode=linetest build",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^3.2.20",
+    "axios": "0.27.2",
+    "js-cookie": "^3.0.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "less-vars-to-js": "^1.3.0",
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.23",
+    "pinia-plugin-persist": "^1.0.0",
+    "terser": "^5.15.1",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@types/js-cookie": "^3.0.2",
+    "@types/lodash": "^4.14.191",
+    "@types/node": "^18.11.3",
+    "@types/nprogress": "^0.2.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "eslint": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-vue": "^9.0.0",
+    "prettier": "^2.8.8",
+    "typescript": "^4.6.4",
+    "unplugin-vue-components": "^0.22.8",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  }
+}
